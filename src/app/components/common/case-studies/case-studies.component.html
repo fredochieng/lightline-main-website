@@ -1,0 +1,116 @@
+<div class="case-studies-area ptb-100" [ngClass]="{'pt-0': router.url === '/index-3'}">
+    <div class="container">
+        <div class="section-title">
+            <span class="sub-title">OUR APPROACH</span>
+            <h2>Our Approaches Are Proven To Be A Success To Research Needs</h2>
+            <p>Our approach is diverse and customer centric. While considering key research components, we prescribe a
+                technique or
+                combination of techniques that will not only ensure we target accurately but collect data that is rich,
+                authentic and
+                adequate</p>
+        </div>
+        <div class="case-studies-slides">
+            <owl-carousel-o [options]="caseStudiesSlides">
+                <ng-template carouselSlide>
+                    <div class="single-case-studies-box">
+                        <div class="row align-items-center m-0">
+                            <div class="col-lg-6 col-md-12 p-0">
+                                <div class="content">
+                                    <div class="logo">
+                                        <img src="assets/img/case-studies/case-studies6.png" alt="image">
+                                    </div>
+                                    <h3><a routerLink="/work-details">Quantitative Techniques</a></h3>
+                                    <p></p>
+                                    <ul class="features-list">
+                                        <li>
+                                            <span>CATI</span>
+                                            <!-- <a routerLink="/work-style-1">CATI</a> -->
+                                        </li>
+                                        <li>
+                                            <span>CAWI</span>
+                                            <!-- <a routerLink="/work-style-2">CAWI</a> -->
+                                        </li>
+                                        <li>
+                                            <span>CAPI</span>
+                                            <!-- <a href="#" target="_blank">CAPI</a> -->
+                                        </li>
+                                        <li>
+                                            <span>PAPI</span>
+                                            <!-- <a href="#" target="_blank">PAPI</a> -->
+                                        </li>
+
+                                    </ul>
+                                    <div [ngClass]="{'d-none': router.url === '/services'}">
+                                        <a routerLink="/work-details" class="default-btn">
+                                            <span class="ri-arrow-right-s-line"></span>
+                                            Learn More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-0">
+                                <div class="image">
+                                    <img src="assets/img/case-studies/case-studies1.png" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-case-studies-box">
+                        <div class="row align-items-center m-0">
+                            <div class="col-lg-6 col-md-12 p-0">
+                                <div class="content">
+                                    <div class="logo">
+                                        <img src="assets/img/case-studies/case-studies7.png" alt="image">
+                                    </div>
+                                    <h3><a routerLink="/work-details">Qualitative Techniques</a></h3>
+                                    <p>At Lightline we don’t just stop at what the numbers say, we dig deeper to gain an
+                                        in-depth
+                                        understanding and uncover stories that matter around consumer perceptions,
+                                        attitudes and
+                                        behaviors. Using our team of qualitative moderators, we will engage your
+                                        consumers at a one
+                                        on one level and package their stories about your brand in a bid to help with
+                                        the company’s
+                                        strategic planning.</p>
+                                    <ul class="features-list">
+                                        <li>
+                                            <span>Focus Group Discussions</span>
+                                            <!-- <a routerLink="/work-style-1">CATI</a> -->
+                                        </li>
+                                        <li>
+                                            <span>Expert Interviews</span>
+                                            <!-- <a routerLink="/work-style-2">CAWI</a> -->
+                                        </li>
+                                        <li>
+                                            <span>Ethnography Research</span>
+                                            <!-- <a href="#" target="_blank">CAPI</a> -->
+                                        </li>
+                                        <li>
+                                            <span>Process Observation</span>
+                                            <!-- <a href="#" target="_blank">PAPI</a> -->
+                                        </li>
+                                    </ul>
+                                    <div [ngClass]="{'d-none': router.url === '/services'}">
+                                        <a routerLink="/work-details" class="default-btn">
+                                            <span class="ri-arrow-right-s-line"></span>
+                                            Learn More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-0">
+                                <div class="image">
+                                    <img src="assets/img/case-studies/case-studies2.png" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+        </div>
+    </div>
+    <div class="shape7"><img src="assets/img/shape/shape5.png" alt="image"></div>
+    <div class="shape8"><img src="assets/img/shape/shape6.png" alt="image"></div>
+</div>
